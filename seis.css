@@ -1,0 +1,27 @@
+.boton.seis {
+	background: none;
+	color: #000;
+}
+
+.boton.seis svg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	fill: none;
+}
+
+.boton.seis rect {
+	width: 100%;
+	height: 100%;
+	stroke: #000;
+	stroke-width: 10px;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	transition: .6s ease all;
+}
+
+.boton.seis:hover rect {
+	stroke-dashoffset: 0;
+}

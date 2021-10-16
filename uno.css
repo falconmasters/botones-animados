@@ -1,0 +1,15 @@
+.boton.uno::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #c4b107;
+	position: absolute;
+	z-index: 1;
+	top: -80px;
+	left: 0;
+	transition: .3s ease-in-out all;
+}
+
+.boton.uno:hover::after {
+	top: 0;
+}
